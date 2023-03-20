@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
       - name: RSS
         id: rss
-        uses: katydecorah/instagram-rss-action@v0.3.0
+        uses: thedogx021/instagram-rss-action@v1
         with:
           yourInstagram: pttun_palembang
           listOfInstagrams: ptun.palembang
