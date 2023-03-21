@@ -15,8 +15,8 @@ jobs:
         id: rss
         uses: ./
         with:
-          yourInstagram: instagram_handle
-          listOfInstagrams: nytcooking,sohlae,swissmiss,soulfirefarm
+          yourInstagram: pttun_palembang
+          listOfInstagrams: ptun.palembang
       - name: Commit files
         if: ${{ success() && steps.rss.outputs.RSS_STATUS == 'success' }}
         run: |
